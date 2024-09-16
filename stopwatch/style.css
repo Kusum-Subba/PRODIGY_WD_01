@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background: linear-gradient(45deg, #522b5b 10%, #854f6c 70%); 
+    font-family: "VT323", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stopwatch{
+    width: 60%;
+    height: 280px;
+    background-color: #190019;
+    background-position: center;
+    border-radius: 30px;
+    text-align: center;
+    padding: 60px 0;
+    color: #fbe4d8;
+    margin: 100px auto 0;
+}
+
+.stopwatch h1{
+    font-size: 90px;
+    font-weight: bolder;
+    word-spacing: 60px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+}
